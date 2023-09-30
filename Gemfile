@@ -70,3 +70,4 @@ end
 
 
 gem "faker"
+gem "font-awesome-sass", "~> 6.1"

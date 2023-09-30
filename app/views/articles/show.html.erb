@@ -1,10 +1,18 @@
 <div class="container">
+
+  <%= link_to edit_article_path do %>
+    <i class="fa-solid fa-pencil"></i>
+  <% end %>
+
+  <%= link_to edit_article_path do %>
+    <i class="fa-solid fa-trash-can"></i>
+  <% end %>
+
   <h1><%= @article.title %></h1>
 
   <p><%= @article.content %></p>
 
 
   <%= link_to "Delete", article_path(@article), data: { turbo_method: :delete, turbo_confirm: 'Are you sure?' } %>
-    <%# <i class="fa-regular fa-trash-can"></i>
-  <% end %>
+
 </div>

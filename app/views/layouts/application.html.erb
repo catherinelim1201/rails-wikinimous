@@ -7,12 +7,14 @@
     <%= csp_meta_tag %>
 
     <%= turbo_include_tags %>
-
+    <%# font awesome %>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
+    <%= render "navbar" %>
     <%= yield %>
   </body>
 </html>

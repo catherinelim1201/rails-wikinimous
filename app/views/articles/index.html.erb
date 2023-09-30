@@ -1,23 +1,7 @@
 <div class="container">
-
-  <nav class="navbar sticky-top bg-body-tertiary">
-    <div class="container-fluid">
-      <ul>
-        <li>
-          <a class="navbar-brand" href="#">Wikinimous</a>
-        </li>
-
-        <li>
-          <%= link_to "New Article", new_article_path %>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
   <ul>
     <% @articles.each do |article| %>
       <li><%= link_to article.title, article_path(article) %></li>
     <% end %>
   </ul>
-
 </div>
