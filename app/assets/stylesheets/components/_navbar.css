@@ -1,0 +1,30 @@
+body {
+  background-color: #EBE4D1;
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#navbar > li {
+  display: inline-block;
+  margin: 10px 10px;
+  /* margin-right: 30px; */
+}
+
+.navbar-header {
+  list-style-type: none;
+  padding: 10px 70px;
+}
+
+li {
+  list-style-type: none;
+  font-size: 30px;
+  color: #141E46;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,23 @@
+.btn {
+  background-color: #113946;
+  border-radius: 8px;
+  box-shadow: 3px 3px 8px #4B527E;
+  padding: 10px;
+  /* display: flex; */
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  margin-left: 300px;
+}
+
+.btn a, .btn input {
+  color: #FFF2D8;
+
+}
+
+.btn input {
+  background-color: #113946;
+  border: none;
+  top: 30px;
+  right: 50px;
+}

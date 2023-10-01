@@ -1,0 +1,25 @@
+.container {
+  margin: 0 auto;
+}
+
+
+form {
+  display: block;
+
+}
+
+form label {
+  margin: 10px 20px;
+  position: relative;
+  /* top: 10px; */
+  left: 8px;
+}
+
+
+#form-content input {
+  padding: 50px;
+}
+
+button {
+  color: red;
+}
