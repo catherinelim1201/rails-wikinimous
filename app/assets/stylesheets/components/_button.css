@@ -21,3 +21,9 @@
   top: 30px;
   right: 50px;
 }
+
+/* edit & delete icon */
+.fa-solid {
+  color: #B9B4C7;
+  font-size: 20px;
+}

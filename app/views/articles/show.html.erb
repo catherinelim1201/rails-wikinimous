@@ -1,17 +1,20 @@
 <div class="container">
-
   <div>
-    <%= link_to edit_article_path do %>
-      <i class="fa-solid fa-pencil"></i>
-    <% end %>
+    <h1><%= @article.title %>
+      <span>
+        <%= link_to edit_article_path do %>
+          <i class="fa-solid fa-pencil"></i>
+        <% end %>
+        <%= link_to edit_article_path do %>
+          <i class="fa-solid fa-trash-can"></i>
+        <% end %>
+      </span>
 
-    <%= link_to edit_article_path do %>
-      <i class="fa-solid fa-trash-can"></i>
-    <% end %>
+    </h1>
+
 
   </div>
 
-  <h1><%= @article.title %></h1>
 
   <p><%= @article.content %></p>
 
